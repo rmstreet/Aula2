@@ -7,5 +7,11 @@ namespace Aula_2.Data
     {
         public DateTime DateTime { get; set; }
         public string Description { get; set; }
+
+
+        public override string ToString()
+        {
+            return $"{DateTime.ToString()} | {Description}";
+        }
     }
 }

@@ -11,6 +11,7 @@ namespace Aula_2
         static void Main(string[] args)
         {
             // Adicionar os Metodos dos Cenarios Aqui
+            
 
             Console.ReadKey();
         }
@@ -171,6 +172,9 @@ namespace Aula_2
             }
         }
         #endregion
+
+        
+
     }
 
 

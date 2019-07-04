@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace Aula_2.Data
 {
@@ -83,7 +84,7 @@ namespace Aula_2.Data
             }
         };
 
-        public static PrescriptionA[] Prescriptions = new PrescriptionA[7] 
+        public static List<PrescriptionA> Prescriptions1 { get; set; } = new List<PrescriptionA>()
         {
             new PrescriptionA(){ DateTime = DateTime.Now.AddHours(3), Description = "Remedio X" },
             new PrescriptionA(){ DateTime = DateTime.Now, Description = "Remedio Y" },
@@ -93,7 +94,6 @@ namespace Aula_2.Data
             new PrescriptionA(){ DateTime = DateTime.Now.AddDays(-2).AddHours(1), Description = "Remedio C" },
             new PrescriptionA(){ DateTime = DateTime.Now.AddDays(-3).AddHours(-3), Description = "Remedio B" }
         };
-
     }
 
 
